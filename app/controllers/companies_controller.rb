@@ -4,23 +4,11 @@ class CompaniesController < ApplicationController
 
     end
 
-    def new
-
-    end
-
     def create
-
+        @company = Company.new
     end
 
     def show
-
-    end
-
-    def edit
-
-    end
-
-    def update
 
     end
 

@@ -1,0 +1,18 @@
+<h1>Post a Job:</h1>
+<%= form_for :job do |f| %>
+    <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+    <p>
+    <%= f.label :type %><br>
+    <%= f.text_field :type %>
+    <p>
+    <%= f.label :requirements %><br>
+    <%= f.text_field :requirements %>
+    <p>
+    <%= f.label :avg_salary %><br>
+    <%= f.number_field :avg_salary %>
+    <p>
+    <%= f.submit %>
+
+<% end %>
